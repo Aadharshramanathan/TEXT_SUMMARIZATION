@@ -1,0 +1,26 @@
+.navbar{
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: left;
+    color: aliceblue;
+    width: 95%;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 20px 20px 10px rgb(173, 173, 173);
+}
+button{
+    height: 45px;
+    padding: auto;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+button:hover{
+    background-color: rgb(97, 97, 97);
+    color: rgb(255, 255, 255);
+}

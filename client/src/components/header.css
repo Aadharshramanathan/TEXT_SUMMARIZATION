@@ -1,0 +1,12 @@
+.header{
+    background-color: rgb(87, 86, 86);
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    color: aliceblue;
+    width: 95%;
+    height: 70px;
+    box-sizing: border-box;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 20px 20px 10px rgb(173, 173, 173);
+}
