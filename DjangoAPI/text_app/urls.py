@@ -1,9 +1,6 @@
-from django.conf.urls import url
+from django.urls import re_path
 from text_app import views
 
-from django.conf.urls.static import static
-from django.conf import settings
-
 urlpatterns=[
-    url(r'^textapi$',views.textapi)
-] + + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    re_path(r'^textapi$',views.textapi)
+]
